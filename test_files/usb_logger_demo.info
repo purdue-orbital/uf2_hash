@@ -1,0 +1,5 @@
+BOOT2 : ORIGIN = 0x10000000, LENGTH = 0x100
+FLASH : ORIGIN = 0x10000100, LENGTH = 2048K - 0x100
+
+
+cargo run -- 0x200000 .\test_files\usb_logger_demo.uf2 -s 0x10000000
