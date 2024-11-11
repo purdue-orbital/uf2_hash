@@ -11,7 +11,7 @@ use crate::uf2::UF2;
 #[derive(Debug)]
 pub struct VirtualFlash {
 	pub offset: u32,
-	data: Cursor<Vec<u8>>,
+	pub data: Cursor<Vec<u8>>,
 }
 
 impl VirtualFlash {
